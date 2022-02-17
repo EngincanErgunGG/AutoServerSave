@@ -19,7 +19,7 @@
 
 # CakePHP 2
 
-/app/tmp/*
+/app/tmp/* 
 /app/Config/core.php
 /app/Config/database.php
 /vendors/*
