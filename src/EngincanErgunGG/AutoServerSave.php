@@ -13,7 +13,7 @@ use pocketmine\{
 class AutoServerSave extends PluginBase {
 
     function onEnable() {
-        $this->getScheduler()->scheduleRepeatingTask(new class($this) extends Task{
+        $this->getScheduler()->scheduleRepeatingTask(new class($this) extends Task {
             function onRun(int $t) {
                 $server = Server::getInstance();
                 $server->broadcastMessage("§7> §3Sunucu Kaydediliyor..");
